@@ -3,7 +3,7 @@
 //3, 5 -> 243 (3⁵)
 //
 //2, 4 -> 16
-/*
+
 int DegreeNum(int num,int deg)
 {
     if (deg < 1) return -1;
@@ -21,7 +21,7 @@ Console.Write("и его степерь ");
 int y = Convert.ToInt32(Console.ReadLine()); 
 
 Console.Write($"И так: {x} в степени {y} равен {DegreeNum(x,y)}");
-*/
+
 /*Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
 
 452 -> 11
@@ -54,7 +54,7 @@ Console.Write($"сумма цифв в числе: {x} равена {SumNum(x)}"
 
 6, 1, 33 -> [6, 1, 33]
 */
-
+/*
 int[] NewArray(int x)
 {
     int[] result = new int[x];
@@ -85,5 +85,5 @@ array = InArray(array);
 
 Console.WriteLine("Вот такой массив у нас получился: ");
 ShowArray(array);
-
+*/
 
